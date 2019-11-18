@@ -7,6 +7,23 @@ body{
     background-color: whitesmoke;
 }
 
+/*------- SKRIFT TYPER ---------*/
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'vag';
+    src: url('fonts/vag_rounded_light-webfont.woff2') format('woff2'),
+         url('fonts/vag_rounded_light-webfont.woff') format('woff');
+
+}
+
+
 
 /*------- NAVIGATIONSBAR -------*/
 
@@ -24,7 +41,7 @@ nav a {
 
     float: left;
     font-size: 1.4rem;
-    font-family: active;
+    font-family: 'vag';
     color: white;
     text-align: center;
     padding: 1vw;
@@ -96,12 +113,12 @@ section {
 
 h1 {
     text-align: center;
-    font-family: active;
+    font-family: 'vag';
 }
 
 p {
     text-align: center;
-    font-family: active;
+    font-family: 'roboto';
 }
 
 footer{
@@ -109,13 +126,13 @@ footer{
     margin: 2vw;
     padding: 1vw;
     text-align: center;
-    font-family: active;
+    font-family: 'roboto';
     font-size: 1rem
 }
 
 .link {
     text-align: center;
-    font-family: active;
+    font-family: 'roboto';
     font-size: 1rem;
     text-decoration: none;
     color: black;
